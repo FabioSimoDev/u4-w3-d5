@@ -4,16 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="81b1ebb4-5d96-4622-ac9d-47261abeb00d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/simonellifabio/entities/Book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/simonellifabio/entities/CatalogItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/simonellifabio/entities/Loan.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/simonellifabio/entities/Magazine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/simonellifabio/entities/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/simonellifabio/entities/enums/magazine/Periodicity.java" afterDir="false" />
+    <list default="true" id="81b1ebb4-5d96-4622-ac9d-47261abeb00d" name="Changes" comment="base delle classi creata">
+      <change afterPath="$PROJECT_DIR$/src/main/java/simonellifabio/entities/DAO/CatalogItemsDAO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/simonellifabio/entities/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/simonellifabio/entities/Book.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/simonellifabio/entities/CatalogItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/simonellifabio/entities/CatalogItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/simonellifabio/entities/Loan.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/simonellifabio/entities/Loan.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/simonellifabio/entities/Magazine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/simonellifabio/entities/Magazine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/simonellifabio/entities/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/simonellifabio/entities/User.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,8 +24,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Enum" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -62,6 +60,14 @@
       <option name="presentableId" value="Default" />
       <updated>1702634779783</updated>
     </task>
+    <task id="LOCAL-00001" summary="base delle classi creata">
+      <created>1702637701227</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1702637701227</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -74,5 +80,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="base delle classi creata" />
+    <option name="LAST_COMMIT_MESSAGE" value="base delle classi creata" />
   </component>
 </project>

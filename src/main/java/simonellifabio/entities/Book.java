@@ -1,5 +1,9 @@
 package simonellifabio.entities;
 
+import javax.persistence.*;
+
+@Entity
+@Table(name = "libro")
 public class Book extends CatalogItem{
     private String author;
     private String genre;

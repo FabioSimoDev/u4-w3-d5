@@ -1,14 +1,25 @@
 package simonellifabio.entities;
 
+import javax.persistence.*;
+
+@Entity
+@Table(name = "catalog_item")
+@Inheritance(strategy = InheritanceType.JOINED)
 public abstract class CatalogItem {
+    @Column(nullable = false, unique = true)
     private String ISBN;
 
+    @Id
+    @GeneratedValue
     private long ID;
 
+    @Column(nullable = false)
     private String title;
 
+    @Column(name = "anno_pubblicazione")
     private int publicationYear;
 
+    @Column(name = "numero_pagine")
     private int pageCount;
 
     public CatalogItem() {
