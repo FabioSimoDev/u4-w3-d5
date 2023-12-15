@@ -1,6 +1,7 @@
 package simonellifabio.entities.DAO;
 
 import simonellifabio.entities.CatalogItem;
+import simonellifabio.entities.Loan;
 
 import javax.persistence.EntityManager;
 import javax.persistence.EntityTransaction;
@@ -12,7 +13,7 @@ public class LoanDAO {
         this.em = em;
     }
 
-    public void save(LoanDAO item){
+    public void save(Loan item){
         EntityTransaction transaction = em.getTransaction();
 
         transaction.begin();

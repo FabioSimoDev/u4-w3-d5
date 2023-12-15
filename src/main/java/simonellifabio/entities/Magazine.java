@@ -20,4 +20,12 @@ public class Magazine extends CatalogItem{
         super(isbn, title, publicationYear, pageCount);
         this.periodicity = periodicity;
     }
+
+    public Periodicity getPeriodicity() {
+        return periodicity;
+    }
+
+    public void setPeriodicity(Periodicity periodicity) {
+        this.periodicity = periodicity;
+    }
 }

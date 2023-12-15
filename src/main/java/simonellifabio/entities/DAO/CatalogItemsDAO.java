@@ -4,6 +4,8 @@ import simonellifabio.entities.CatalogItem;
 
 import javax.persistence.EntityManager;
 import javax.persistence.EntityTransaction;
+import javax.persistence.TypedQuery;
+import java.util.List;
 
 public class CatalogItemsDAO {
     private final EntityManager em;
@@ -45,5 +47,29 @@ public class CatalogItemsDAO {
         }else{
             System.out.println("item non trovato, sicuro che l'id sia corretto?");
         }
+    }
+
+    public List<CatalogItem> findByISBN(String ISBN){
+        TypedQuery<CatalogItem> query = em.createNamedQuery("findByISBN", CatalogItem.class);
+        query.setParameter("isbn", ISBN);
+        return query.getResultList();
+    }
+
+    public List<CatalogItem> findByPublishingYear(int year){
+        TypedQuery<CatalogItem> query = em.createNamedQuery("findByPublishingYear", CatalogItem.class);
+        query.setParameter("year", year);
+        return query.getResultList();
+    }
+
+    public List<CatalogItem> findByTitle(String title){
+        TypedQuery<CatalogItem> query = em.createNamedQuery("findByTitle", CatalogItem.class);
+        query.setParameter("titlePart", title);
+        return query.getResultList();
+    }
+
+    public List<CatalogItem> findByAuthor(String author){
+        TypedQuery<CatalogItem> query = em.createNamedQuery("findByAuthor", CatalogItem.class);
+        query.setParameter("author", author.toLowerCase());
+        return query.getResultList();
     }
 }

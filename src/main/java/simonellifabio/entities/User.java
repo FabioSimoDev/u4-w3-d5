@@ -22,7 +22,7 @@ public class User {
 
     private UUID cardNumber;
 
-    @OneToMany(mappedBy = "user", cascade = CascadeType.ALL)
+    @OneToMany(mappedBy = "user", cascade = CascadeType.PERSIST)
     private List<Loan> loanList;
 
     public User() {
