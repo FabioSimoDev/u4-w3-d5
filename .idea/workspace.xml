@@ -4,16 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="81b1ebb4-5d96-4622-ac9d-47261abeb00d" name="Changes" comment="entità, DAO">
+    <list default="true" id="81b1ebb4-5d96-4622-ac9d-47261abeb00d" name="Changes" comment="finito per mancanza di tempo">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/simonellifabio/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/simonellifabio/Application.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/simonellifabio/entities/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/simonellifabio/entities/Book.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/simonellifabio/entities/CatalogItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/simonellifabio/entities/CatalogItem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/simonellifabio/entities/DAO/CatalogItemsDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/simonellifabio/entities/DAO/CatalogItemsDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/simonellifabio/entities/DAO/LoanDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/simonellifabio/entities/DAO/LoanDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/simonellifabio/entities/DAO/UserDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/simonellifabio/entities/DAO/UserDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/simonellifabio/entities/Magazine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/simonellifabio/entities/Magazine.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/simonellifabio/entities/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/simonellifabio/entities/User.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,7 +68,14 @@
       <option name="project" value="LOCAL" />
       <updated>1702641480249</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="finito per mancanza di tempo">
+      <created>1702655892866</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1702655892866</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -93,6 +92,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="base delle classi creata" />
     <MESSAGE value="entità, DAO" />
-    <option name="LAST_COMMIT_MESSAGE" value="entità, DAO" />
+    <MESSAGE value="finito per mancanza di tempo" />
+    <option name="LAST_COMMIT_MESSAGE" value="finito per mancanza di tempo" />
   </component>
 </project>
